@@ -4,6 +4,7 @@ import "./globals.css";
 import ClickSpark from "@/components/ClickSpark";
 import { ThemeProvider } from "@/components/themeprovider";
 import { ModeToggle } from "@/components/theme";
+import MusicPlayer from "@/components/MusicPlayer";
 
 const sourGummy= Sour_Gummy({
   subsets: ["latin"],
@@ -62,8 +63,8 @@ export default function RootLayout({
             disableTransitionOnChange
           >
 
-        <span className="fixed top-0 left-0 w-full h-fit  z-50 bg-red-950 p-1 text-white text-center  hidden md:block  text-sm "> Searching for job , freelancing , internships : @aviinashgarwal@gmail.com  </span>
-        <span className="fixed top-0 left-0 w-full h-fit  z-50 bg-red-950 p-1 text-white text-center  block md:hidden  text-sm "> Searching for job , freelancing   </span>
+        <span className="fixed top-0 left-0 w-full h-fit  z-50 bg-red-950 p-1 text-white text-center  hidden md:block  text-sm "> working as a Full Stack Developer but want new opportunities , freelancing , internships : @aviinashgarwal@gmail.com  </span>
+        <span className="fixed top-0 left-0 w-full h-fit  z-50 bg-red-950 p-1 text-white text-center  block md:hidden  text-sm "> working as a Full Stack Developer but want new opportunities   </span>
         <ClickSpark
   sparkColor='#fff'
   sparkSize={10}
@@ -72,6 +73,7 @@ export default function RootLayout({
   duration={400}
 >
   <ModeToggle/>
+  
 
         {children}
 </ClickSpark>
@@ -81,3 +83,4 @@ export default function RootLayout({
     </html>
   );
 }
+

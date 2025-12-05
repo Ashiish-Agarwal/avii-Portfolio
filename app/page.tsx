@@ -1,6 +1,8 @@
+
 import { DraggableCardDemo } from "@/components/Draggable";
-import { MoveDown } from "lucide-react";
-import Image from "next/image";
+import MusicPlayer from "@/components/MusicPlayer";
+import { MoveDown, Music2Icon } from "lucide-react";
+
 import Link from "next/link";
 
 
@@ -10,13 +12,14 @@ export default function Home() {
 
 
   return (
-    <div className=" flex  flex-col gap-2 w-full h-full bg-white dark:bg-neutral-950 text-black dark:text-white">
-
+    <div  className="  flex  flex-col gap-2 w-full h-full bg-white dark:bg-neutral-950 text-black dark:text-white">
+      <MusicPlayer/>
 <section className=" h-full w-full ">
   <div className=" text-black dark:text-white text-center h-full w-full flex items-center justify-center mt-10 gap-2 flex-col ">
     <h1 className="text-4xl font-semibold sour-gummy">Ashish agarwal 👋</h1>
     <div className=" bg-red-950  w-fit p-1 text-center">
  <h1 className=" font-semibold text-white  ">Full Stack Developer  .</h1>
+
 
   </div>
   </div>
@@ -35,9 +38,8 @@ export default function Home() {
     </div>
   </div>
   
- 
 
-</section>
+ </section>
 
     </div>
   );
