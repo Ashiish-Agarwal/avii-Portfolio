@@ -10,7 +10,7 @@ const MusicPlayer = () => {
 
     const enableSound = () => {
         if (audioRef.current) {
-            audioRef.current.muted = false
+            audioRef.current.play()
             setIsMuted(false)
             setShowPrompt(false)
         }
@@ -18,14 +18,14 @@ const MusicPlayer = () => {
 
     const toggleMute = () => {
         if (audioRef.current) {
-            audioRef.current.muted = !isMuted
+            audioRef.current.play()
             setIsMuted(!isMuted)
         }
     }
 
     return (
         <>
-            <audio ref={audioRef} autoPlay loop muted id="music">
+            <audio ref={audioRef} autoPlay loop  id="music">
                 <source src="hayeremeraghagra.mp3" type="audio/mpeg"/>
             </audio>
             

@@ -1,7 +1,7 @@
 
 import { DraggableCardDemo } from "@/components/Draggable";
 import MusicPlayer from "@/components/MusicPlayer";
-import { MoveDown, Music2Icon } from "lucide-react";
+import { MoveDown } from "lucide-react";
 
 import Link from "next/link";
 

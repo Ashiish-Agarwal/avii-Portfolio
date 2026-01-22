@@ -17,11 +17,11 @@ export function DraggableCardDemo() {
       link:'https://courses-era.netlify.app'
     },
     {
-      title: "Hivelinks",
+      title: "laxybio",
       image:
         "/hivelinks.png",
       className: "absolute top-10 left-[20%] rotate-[-5deg]",
-   link:'https://hivelinks.netlify.app'
+   link:'https://laxybio.vercel.app/'
     },
     {
       title: "Deal option",
@@ -50,6 +50,13 @@ export function DraggableCardDemo() {
         "/Gaming.png",
       className: "absolute top-20 right-[35%] rotate-[2deg]",
       link:'https://gaminginin.netlify.app'
+    },
+    {
+      title: "Samurai game!!",
+      image:
+        "/samuraigame.png",
+      className: "absolute top-20 right-[35%] rotate-[2deg]",
+      link:'https://gamesamuraiadvik.vercel.app/'
     },
     
    
